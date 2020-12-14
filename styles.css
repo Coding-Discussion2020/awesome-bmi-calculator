@@ -1,0 +1,75 @@
+body {
+  background-color: #191919;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+}
+
+/* Container Section */
+.bmi-calculator-box {
+  border-radius: 10px;
+  padding: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 320px;
+}
+
+.bmi-calculator-box h1 {
+  color: #fff;
+}
+
+/* Inputs Section */
+.bmi-calculator-box input[type="text"] {
+  background: none;
+  border: solid 2px #3498db;
+  border-radius: 25px;
+  color: #fff;
+  display: block;
+  margin: 20px auto;
+  padding: 14px 10px;
+  outline: none;
+  text-align: center;
+  transition: 0.25s;
+  width: 200px;
+}
+
+.bmi-calculator-box input[type="text"]:focus {
+  border-color: #2ecc71;
+  width: 280px;
+}
+
+
+/* Button Section */
+button {
+  background: none;
+  border: solid 2px #2ecc71;
+  border-radius: 25px;
+  color: #fff;
+  display: block;
+  margin: 20px auto;
+  padding: 14px 40px;
+  outline: none;
+  text-align: center;
+  transition: 0.25s;
+}
+
+button:hover {
+  background-color: #2ecc71;
+  color: #000;
+}
+
+/* Message Section */
+.msg-box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  height: auto;
+  text-align: left;
+}
+
+.msg-box p {
+  color: #000;
+  margin: 0;
+}

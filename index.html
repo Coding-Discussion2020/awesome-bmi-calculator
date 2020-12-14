@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- META Data -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- GOOGLE Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Icon & Title -->
+  <link rel="icon" sizes="32x32" href="bmiIcon.png">
+  <title>BMI CALCULATOR</title>
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <!-- Container -->
+  <div class="bmi-calculator-box">
+    <h1>BMIC</h1>
+
+    <!-- User Inputs -->
+    <input id="height" type="text" name="height" placeholder="Enter your height in meters..." autocomplete="off">
+    <input id="weight" type="text" name="weight" placeholder="Enter your weight in kilogams...." autocomplete="off">
+
+    <!-- Button to run the function -->
+    <button onclick="bmiCalculation()">Try it</button>
+
+    <!-- Message from our calculator -->
+    <div class="msg-box">
+      <p id="msg"> // message from the calculator</p>
+    </div>
+  </div>
+
+  <!-- jQuery & JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
